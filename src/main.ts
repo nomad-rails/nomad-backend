@@ -9,6 +9,7 @@ async function bootstrap() {
     credentials: true,
     allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept',
   });
-  await app.listen(3000);
+  const port = process.env.PORT || 3000;
+  await app.listen(port, '0.0.0.0');
 }
 bootstrap();
