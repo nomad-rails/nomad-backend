@@ -126,7 +126,7 @@ export class AppService {
   async getNextUserId(): Promise<number | PostgrestError> {
     const db = this.connect();
 
-    const { data, error } = await db.from('nomad_merchants').select('*');
+    const { data, error } = await db.from('users').select('*');
 
     if (data) {
       return data.length + 1;
@@ -148,7 +148,6 @@ export class AppService {
 
   async generateNewVault(): Promise<string> {
     const id = await this.getNextUserId();
-
     const nomadVault = this.getVault(id as unknown as number).toBase58();
     return nomadVault;
   }
