@@ -34,4 +34,8 @@ The checkout uses Squads account abstraction to create multiple accounts for eac
 # Remove test keys and move to devnet
 ```
 
+> [!TIP]
+> #### Use-case:
+> Global Philiantropy: Worried if your your philiantropic funding are getting to the last-mile?...With nomad checkout you can send crypto to over 400 banks in over 5 countries in Africa. The receivers get the funds in their bank account and their local currencies based on the prevailing market rate.  
+
 
