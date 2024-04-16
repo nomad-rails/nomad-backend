@@ -15,50 +15,23 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Checkout is built with Webhooks from Helius Labs and Intergrations with several fintech partners in Africa to offer seamless off ramping experience for africans(Still in DEVELOPMENT).
 
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
+## On chain services
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+squads-multisig
 ```
-
-## Test
+The checkout uses Squads account abstraction to create multiple accounts for each user controlled by one multisig
+## Handshakes steps
 
 ```bash
-# unit tests
-$ npm run test
+# Incoming tx ping
+# Send to Our partner scalex to facilitate with the user banking details
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# To-do
+# Implement fall-backs
+# Remove test keys and move to devnet
 ```
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
